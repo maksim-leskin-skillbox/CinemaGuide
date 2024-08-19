@@ -49,7 +49,7 @@ export const PageMovie: FC<PageMovieProps> = ({
         <img
           className="random__img"
           src={
-            movie.backdropUrl ? movie.backdropUrl : "/src/assets/empty_img.webp"
+            movie.backdropUrl ? movie.backdropUrl : "/src/assets/empty_img.jpeg"
           }
           alt=""
         />

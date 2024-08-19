@@ -37,9 +37,9 @@ export const RandomMovie: FC<RandomMovieProps> = ({
       <img
         className="random__img"
         src={
-          movie.backdropUrl ? movie.backdropUrl : "/src/assets/empty_img.webp"
+          movie.backdropUrl ? movie.backdropUrl : "/src/assets/empty_img.jpeg"
         }
-        alt=""
+        alt="img"
       />
       <div className="random__content">
         <BlockContentMovie movie={movie} />

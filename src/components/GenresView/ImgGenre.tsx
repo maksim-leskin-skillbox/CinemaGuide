@@ -19,7 +19,7 @@ export const ImgGenre: FC<GenresViewProps> = ({ imgGenre }) => {
           borderTopLeftRadius: "24px",
           height: "100%",
         }}
-        src={MovieImg ? MovieImg : "/src/assets/empty_img.webp"}
+        src={MovieImg ? MovieImg : "/src/assets/empty_img.jpeg"}
         alt=""
       />
     </div>

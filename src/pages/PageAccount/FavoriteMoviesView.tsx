@@ -14,7 +14,7 @@ export const FavoriteMoviesView: FC<FavoriteMoviesViewProps> = ({ movie }) => {
       <div className="best__movie card">
         <img
           className="card__img"
-          src={movie.posterUrl ? movie.posterUrl : "/src/assets/empty_img.webp"}
+          src={movie.posterUrl ? movie.posterUrl : "/src/assets/empty_img.jpeg"}
           alt=""
         />
       </div>
